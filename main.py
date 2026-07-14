@@ -18,7 +18,7 @@ async def send_welcome(message: types.Message):
     keyboard = InlineKeyboardMarkup().add(
         InlineKeyboardButton(
             text="🚀 Запустить приложение", 
-            web_app=WebAppInfo(url="https://onrender.com")
+            web_app=WebAppInfo(url="https://my-tg-01l6.onrender.com")
         )
     )
     await message.reply(welcome_text, reply_markup=keyboard)
